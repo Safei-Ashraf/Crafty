@@ -1,0 +1,14 @@
+{
+  "name": "crafty",
+  "version": "1.0.0",
+  "description": "artistic business startup",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crafty"
+  ],
+  "author": "Safei Ashraf",
+  "license": "ISC"
+}
