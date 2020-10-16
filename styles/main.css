@@ -1,4 +1,101 @@
+:root{
+    --btn-width: 100px;
+    --btn-height: 90px;
+}
 html{
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
+}
+body{
+}
+/*General Rules*/
+button.btn{
+    font-weight: bolder;
+    color: white;
+}
+
+header{
+    background-color: #261c35;
+    height: 400px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 5px 4px rgba(0,0,0,0.75);
+
+}
+
+header .container-fluid{
+    background-color: #3A2854;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    clip-path: polygon(0% 15%, 0 7%, 2% 0, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 95%, 97% 100%, 15% 100%, 0 100%, 0% 85%);
+    border: 2px solid #3A2854;
+}
+.container-fluid h1{
+    display: inline-block;
+}
+div.btn-group
+{
+    float: right;
+}
+#signup-btn{
+    background-color: #EC837F;
+    width:var(--btn-width);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#jumbtron{
+    display: block;
+}
+#jumbtron div{
+  
+    text-align: center;
+    height: 100%;
+}
+.search-input{
+    border-left: 3px solid #261c35;
+}
+#jumbtron a.dropdown-item{
+    background-color:white;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+#jumbtron a.dropdown-item:hover{
+    background-color: #3A2854;
+    color: white;
+    border: #261c35;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.jumbtron-left img, .jumbtron-right img{
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+}
+
+main{
+    border:1px solid red
+}
+section{
+    border: 1px solid green;
+    height: 200px;
+}
+footer{
+   margin-top: 40px;
+    height: 50px;
+    background-color: #3A2854;
 }
