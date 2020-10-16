@@ -10,5 +10,8 @@
     "crafty"
   ],
   "author": "Safei Ashraf",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.0.0"
+  }
 }
