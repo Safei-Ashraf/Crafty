@@ -6,14 +6,18 @@ html{
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
 }
-body{
-}
 /*General Rules*/
 button.btn{
     font-weight: bolder;
     color: white;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
 header{
     background-color: #261c35;
     height: 400px;
@@ -53,7 +57,6 @@ div.btn-group
     display: block;
 }
 #jumbtron div{
-  
     text-align: center;
     height: 100%;
 }
@@ -86,16 +89,52 @@ div.btn-group
     -ms-transform: scale(0.7);
     -o-transform: scale(0.7);
 }
-
+/*
+Main Section Styling
+*/
 main{
-    border:1px solid red
+
 }
 section{
-    border: 1px solid green;
+    height: fit-content;
+    margin-top: 30px;
+}
+.left-promitional-side, .right-promitional-side{
+    border: 1px solid #e2e2e2;
+    min-height: 200px;
+    height: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.left-promitional-side{
+background-color: #F7CD74;
+}
+.right-promitional-side{
+background-color: #EC837F;
+}
+.promitional-inner{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.inner-promotional{
+    width: 50%;
     height: 200px;
 }
+.inner-promotional img{
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+}
 footer{
-   margin-top: 40px;
+    margin-top: 40px;
     height: 50px;
     background-color: #3A2854;
 }
